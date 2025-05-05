@@ -19,7 +19,7 @@ class DatabaseSeeder extends Seeder
         User::factory(10)->create();
         Comment::factory(10)->create();
         $this->call([
-            //UsersSeeder::class,
+            UsersSeeder::class,
             //CommetSeeder::class,
             // Add other seeders here
         ]);
